@@ -2,13 +2,13 @@ macro_xc_run: macro_xc_run{
 compatible = "zmk,behavior-macro";
 label = "macro_xc_run";
 #binding-cells = <0>;
-bindings = <&mt LCTRL LGUI>, <&kp R>;
+bindings = <&kp LCTRL(LGUI(R))>;
 };
 macro_xc_open_quickly: macro_xc_open_quickly{
 compatible = "zmk,behavior-macro";
 label = "macro_xc_open_quickly";
 #binding-cells = <0>;
-bindings = <&mt LGUI LEFT_SHIFT>, <&kp O>;
+bindings = <&kp LGUI(LEFT_SHIFT(O))>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
